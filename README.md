@@ -1,5 +1,27 @@
 # WebTravel
 
+## Steps to run a project
+
+Compatible with node v20.11.1
+
+### Run the backend
+
+1. Navigate to the directorty "server"
+2. Run `npm install`
+3. Run `npm start`. This command wil spin the nodemon server and serve backend on port `3333`.
+
+Running the server may require installation of `nodemon` package as a global dependency on your system.
+
+### Run the frontend
+
+1. Navigate to the directory "client"
+2. Run `npm install`
+3. Run `npm start`
+
+After running the app, the browser will automatically open on the corresponding port.
+
+## Project requirements
+
 Projekat: 
 Potrebno je napraviti web aplikaciju za portal turističke agencije. Sadržaj portala su  aktuelna putovanja. Web aplikacija treba da ima: 
 1. Dvije korisničke uloge: admin i user. 
